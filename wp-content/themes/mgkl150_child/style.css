@@ -1,0 +1,22 @@
+/*	  
+Theme Name: mgkl150_child
+Theme URI: http://www.mgkl150.com
+Description: mgkl150 Child Theme for on Maimpok.
+Author: dryboy
+Author URI: http://www.dryboy.com
+Template: maimpok
+Version: 1.0.1
+Tags: two-columns, fixed-width, sticky-post, translation-ready, microformats, custom-header, custom-background, rtl-language-support, editor-style
+License: GNU General Public License
+License URI: license.txt
+
+.
+This theme is released under GNU General Public License (GPL): 
+http://www.gnu.org/licenses/gpl.html
+.
+
+*/
+/* Import default AutoFocus styles (optional) */ 
+@import url(../maimpok/style.css);
+/*tools*/
+.Hide {display: none !important;}

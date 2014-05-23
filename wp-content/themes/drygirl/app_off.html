@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>BSNBL</title>
+	<script src="http://dryboy.com//wp-content/themes/drygirl/js/jquery-1.5.min.js"></script>
+	<script>
+		$(window).load(function() {    
+
+        var theWindow        = $(window),
+            $bg              = $("#bg"),
+            aspectRatio      = $bg.width() / $bg.height();
+
+        function resizeBg() {
+
+                if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+                    $bg
+                        .removeClass()
+                        .addClass('bgheight');
+                } else {
+                    $bg
+                        .removeClass()
+                        .addClass('bgwidth');
+                }
+
+        }
+
+        theWindow.resize(function() {
+                resizeBg();
+        }).trigger("resize");
+
+});
+		
+	</script>
+	
+	<style>
+		
+		#bg { position: fixed; top: 0; left: 0; }
+		#page-wrap {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 50px;
+		letter-spacing: -1px;
+		text-transform: uppercase;
+		width: 400px;
+		height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    color: #fff;}
+    #page-wrap h1,
+    #page-wrap span {opacity: 0.5; filter: alpha(opacity = 50); display: block;}
+    #page-wrap h1 {margin: 0; padding: 0;}
+    #page-wrap .small {font-size: 20px;}
+.bgwidth { width: 100%; }
+.bgheight { height: 100%; }
+	</style>
+</head>
+
+<body>
+<img id="bg" src="images/main-pic3.jpg" />
+<div id="page-wrap">
+	<h1>BS&amp;BL</h1>
+	<span>COMING SOON</span>
+</div>
+</body>
+</html>

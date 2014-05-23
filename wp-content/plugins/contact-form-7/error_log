@@ -1,0 +1,7 @@
+[28-Feb-2014 02:13:27] PHP Fatal error:  Call to undefined function  plugin_basename() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
+[28-Feb-2014 02:13:30] PHP Warning:  require_once(WPCF7_PLUGIN_DIR/includes/functions.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/settings.php on line 3
+[28-Feb-2014 02:13:30] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'WPCF7_PLUGIN_DIR/includes/functions.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/settings.php on line 3
+[01-Mar-2014 08:19:55] PHP Fatal error:  Call to undefined function  plugin_basename() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
+[03-Mar-2014 17:03:58] PHP Fatal error:  Call to undefined function  plugin_basename() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
+[05-Mar-2014 14:32:54] PHP Fatal error:  Call to undefined function  plugin_basename() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35
+[06-Mar-2014 02:36:44] PHP Fatal error:  Call to undefined function  plugin_basename() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 35

@@ -1,0 +1,90 @@
+
+a:link, a:visited { color: #333; }
+a:hover, a:active { color: #39c; }
+
+blockquote { border-color: #ddd; }
+
+div#header { background: #000 url('../images/bg-header.png') top center no-repeat; }
+
+div#header div.box-title h1 { background: transparent url('../images/border-site-description.png') top right no-repeat; }
+div#header div.box-title h1 a { background: transparent url('../images/site-name.png') top left no-repeat; }
+div#header div.box-title p { background: transparent url('../images/site-description.png') bottom left no-repeat; }
+
+div.box-search { background: transparent url('../images/bg-search.png') top left no-repeat; }
+div.box-search input { color: #9a9a9a; background: transparent url('../images/input-search.png') top left no-repeat; border-color: none; }
+div.box-search button { background: transparent url('../images/button-search.png') top left no-repeat; border-color: none; cursor: hand; }
+
+div#padd-subscribed ul { background: transparent url('../images/bg-subscribed-list.gif') left 280px repeat-x; } 
+div#padd-subscribed ul li { background: transparent url('../images/bg-subscribed-list.gif') top left repeat-x; }
+div#padd-subscribed ul li.rss a span { background: transparent url('../images/bg-subscribed-list-item-rss.png') top left no-repeat; }
+div#padd-subscribed ul li.email a span { background: transparent url('../images/bg-subscribed-list-item-email.png') top left no-repeat; }
+div#padd-subscribed ul li.twitter a span { background: transparent url('../images/bg-subscribed-list-item-twitter.png') top left no-repeat; }
+div#padd-subscribed ul li.facebook a span { background: transparent url('../images/bg-subscribed-list-item-facebook.png') top left no-repeat; }
+div#padd-subscribed ul li a:link, div#padd-subscribed ul li a:visited { background: transparent url('../images/bg-subscribed-list-item.gif') top left no-repeat; }
+div#padd-subscribed ul li a:hover, div#padd-subscribed ul li a:active { background: transparent url('../images/bg-subscribed-list-item.gif') bottom left no-repeat; }
+
+div#body-wrapper { background: transparent url('../images/bg-body-wrapper.png') center center repeat-y; }
+
+div.post-group-title h2 span { background: transparent url('../images/bg-post-group-title.png') right center no-repeat; }
+
+div.post-list-index { background: transparent url('../images/bg-post-list.png') left top no-repeat; }
+
+div.post div.post-title h2 a:link, div.post div.post-title h2 a:visited { color: #333; }
+div.post div.post-title h2 a:hover, div.post div.post-title h2 a:active { color: #333; }
+
+div.post-index { border-color: #c0c0c0; }
+div.post-index img.header { background: #f1f1f1 none; }
+
+div.post-box-title { background: transparent url('../images/border-post-box-title.gif') bottom left repeat-x; }
+div.post-box-about-author h3 { background: transparent url('../images/icon-author.gif') center left no-repeat; }
+div.post-box-sb h3 { background: transparent url('../images/icon-spread-love.gif') center left no-repeat; }
+div.post-box-related h3 { background: transparent url('../images/icon-related-posts.gif') center left no-repeat; }
+div.post-box-comments h3 { background: transparent url('../images/icon-comments.gif') center left no-repeat; }
+div.post-box-trackbacks h3 { background: transparent url('../images/icon-trackbacks.gif') center left no-repeat; }
+div.post-box-reply h3 { background: transparent url('../images/icon-comment-add.gif') center left no-repeat; }
+
+li.odd div.comment-details-interior { background: transparent url('../images/bg-comment-even-detail.gif') center left repeat-y; }
+li.odd div.comment-details-interior div.tb { background: transparent url('../images/bg-comment-even-detail-tb.gif') top left no-repeat; }
+li.odd div.comment-details-interior-wrapper { background: transparent url('../images/bg-comment-even-callout.gif') top left no-repeat; }
+
+li.even div.comment-details-interior { background: transparent url('../images/bg-comment-odd-detail.gif') center left repeat-y; }
+li.even div.comment-details-interior div.tb { background: transparent url('../images/bg-comment-odd-detail-tb.gif') top left no-repeat; }
+li.even div.comment-details-interior-wrapper { background: transparent url('../images/bg-comment-odd-callout.gif') top left no-repeat; }
+
+form#comment-form p.input input { color: #000; background: #f4f2ef none; border-color: #ddd; }
+form#comment-form textarea { color: #000; background: #f4f2ef none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.gif') left top no-repeat; }
+
+div#sidebar div.box h2 { color: #000; }
+div#sidebar div.box h2 span { background: transparent url('../images/bg-post-group-title.png') right center no-repeat; }
+div#sidebar div.box div.box-interior { background: transparent url('../images/bg-box.gif') left top no-repeat; }
+div#sidebar div.box div.box-interior-wrapper { background: #f1ede5 none; }
+div#sidebar div.box ul, div#sidebar div.box ol { }
+div#sidebar div.box li { background: transparent url('../images/bg-box-list-item.gif') 0px 14px no-repeat; }
+
+div#sidebar div.box-subscribe ul { background: transparent none; }
+div#sidebar div.box-subscribe ul li { background: transparent none; }
+div#sidebar div.box-subscribe ul li.rss { background: transparent url('../images/icon-small-rss.png') left center no-repeat; }
+div#sidebar div.box-subscribe ul li.email { background: transparent url('../images/icon-small-email.png') left center no-repeat; }
+div#sidebar div.box-subscribe ul li.twitter { background: transparent url('../images/icon-small-twitter.png') left center no-repeat; }
+div#sidebar div.box-subscribe ul li.facebook { background: transparent url('../images/icon-small-facebook.png') left center no-repeat; }
+
+div#sidebar div.widget_tag_cloud div.box-interior div { border-color: #867d67; background: #f0ebe2 none; }
+div#sidebar div.widget_tag_cloud div.box-interior div a { color: #5c5443; }
+
+div#flickrrss img { background: #fff none; }
+
+div#footer-wrapper { background: transparent url('../images/bg-body-wrapper.png') center center repeat-y; }
+
+div#footer div.footer-box h2 { color: #fff; }
+div#footer div.footer-box h2 span { background: transparent url('../images/bg-footer-title.gif') right center no-repeat; }
+div#footer div.footer-box div.footer-interior { color: #999; }
+div#footer div.footer-box div.footer-interior a { color: #ccc; }
+
+div#footer-content { background: #303030 none; }
+
+div.footer-box ul li { background: transparent url('../images/bg-footer-list-item.gif') 4px 12px no-repeat; }
+
+div#footer-final { background: #000 none; color: #333; border-top-color: #4f4f4f; }
+div#footer-final a { color: #333; }
+

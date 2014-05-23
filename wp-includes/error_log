@@ -1,0 +1,2 @@
+[17-Jul-2013 02:25:26] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/mgklcom/public_html/wp-includes/registration-functions.php on line 7
+[17-Jul-2013 03:02:17] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home/mgklcom/public_html/wp-includes/registration-functions.php on line 7

@@ -1,0 +1,6 @@
+[28-Feb-2014 02:13:23] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[28-Feb-2014 02:13:31] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[01-Mar-2014 08:19:50] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[01-Mar-2014 08:19:52] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[10-Mar-2014 13:32:00] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[10-Mar-2014 13:32:03] PHP Fatal error:  Call to undefined function  add_action() in /home/mgklcom/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3

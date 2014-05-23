@@ -1,0 +1,51 @@
+div#mainmenu ul {
+	display: block; margin: 0; padding: 0; height: 51px; float: right;
+	list-style-type: none;
+}
+div#mainmenu ul li {
+	display: block; margin: 0 0 0 20px; padding: 14px 0 0 0; float: left;
+}
+div#mainmenu ul li a:link, div#mainmenu ul li a:visited {
+	display: block;
+	font: bold 11px/22px Tahoma,Helvetica,sans-serif;
+	color: #ccc;
+	text-decoration: none;
+}
+div#mainmenu ul li a:hover, div#mainmenu ul li a:active,
+div#mainmenu ul li.current_page_item a:link, div#mainmenu ul li.current_page_item a:visited {
+	color: #fc3;
+}
+
+
+div#categories h2 { display: none; }
+div#categories ul { 
+	display: block; list-style: none; margin: 0; padding: 0; height: 38px;
+	background: transparent url('../images/bg-categories.gif') top left repeat-x;
+}
+div#categories ul li { 
+	display: block; margin: 0; padding: 0 24px 0 17px; float: left; height: 38px;
+	background: transparent url('../images/bg-cat-list-item.gif') center right no-repeat;
+}
+div#categories ul li:last-child { 
+	padding: 0 17px;
+	background: transparent none;
+}
+div#categories ul li a:link, div#categories ul li a:visited {
+	font: bold 12px/38px Georgia,serif; color: #999;
+	text-shadow: 1px 1px #000; text-transform: uppercase;
+	display: block; margin: 0; height: 38px;
+	text-decoration: none;
+}
+div#categories ul li a:hover, div#categories ul li a:active,
+div#categories ul li.current-cat a:link, div#categories ul li.current-cat a:visited {
+	font: bold 12px/38px Georgia,serif; color: #fff;
+	text-shadow: 1px 1px #000; text-transform: uppercase;
+	display: block; margin: 0; height: 38px;
+	text-decoration: none;
+}
+
+
+
+
+
+

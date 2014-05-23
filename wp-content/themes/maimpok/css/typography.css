@@ -1,0 +1,43 @@
+/*
+Section: Typography
+*/
+
+body { font: normal 12px/18px Helvetica,Arial,sans-serif; }
+input, select, option, textarea { font: normal 12px/16px Helvetica,Arial,sans-serif; }
+blockquote { font-style: italic; }
+
+div#header input { font: normal 11px/23px 'LucidaGrande','Lucida Grande','Lucida Sans',serif; }
+
+div#padd-subscribed h2 { font: bold 12px/16px Helvetica,Arial,sans-serif; text-transform: uppercase; }
+div#padd-subscribed ul li span { font: bold 12px/62px Helvetica,Arial,sans-serif; }
+div#padd-subscribed ul li a:link, div#padd-subscribed ul li a:visited { text-decoration: none; text-transform: uppercase; }
+div#padd-subscribed ul li a:hover, div#padd-subscribed ul li a:active { text-decoration: none; }
+
+div.post-group-title h2 { font: bold 16px/36px Georgia,serif; text-transform: uppercase; }
+
+div.post div.post-title h2 { font: normal 24px/28px Georgia,serif; }
+div.post div.post-title h2 a:link, div.post div.post-title h2 a:visited { font: normal 24px/28px Georgia,serif; text-decoration: none; }
+div.post div.post-title h2 a:hover, div.post div.post-title h2 a:active { text-decoration: underline; }
+
+div.post-box h3 { font: bold 16px/33px Georgia,serif; text-transform: uppercase; }
+
+div.comment-author { font: normal 11px/15px Helvetica,Verdana,sans-serif; }
+
+form#comment-form p.input input, form#comment-form p textarea { font: normal 12px/16px Helvetica,Arial,sans-serif; }
+
+div#sidebar div.box h2 { font: bold 16px/36px Georgia,serif; text-transform: uppercase; }
+div#sidebar div.box ul li, div#sidebar div.box ol li { font: normal 12px/16px Helvetica,Arial,sans-serif; }
+div#sidebar div.box ul li a, div#sidebar div.box ol li a { text-decoration: none; }
+
+div#sidebar div.box-subscribe ul li a { font: bold 12px/16px Helvetica,Arial,sans-serif; }
+
+div#sidebar div.widget_tag_cloud div.box-interior div { font: normal 12px/16px Helvetica,Arial,sans-serif; }
+div#sidebar div.widget_tag_cloud div.box-interior div a { text-decoration: none; }
+
+div#footer div.footer-box h2 { font: bold 16px/36px Georgia,serif; text-transform: uppercase; }
+div#footer div.footer-box div.footer-interior { font: normal 10px/20px 'Lucida Grande','Lucida Sans',serif; }
+div#footer div.footer-box div.footer-interior a { font: normal 10px/20px 'Lucida Grande','Lucida Sans',serif; text-decoration: none; }
+
+div#footer-final p { font: normal 10px/46px 'Lucida Grande','Lucida Sans',serif; }
+div#footer-final p a { text-decoration: none; }
+

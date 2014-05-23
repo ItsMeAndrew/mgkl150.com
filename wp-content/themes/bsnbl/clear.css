@@ -1,0 +1,42 @@
+/*********************************************************************
+* Copyright 2009 Amblique :: www.amblique.com :: All Rights Reserved *
+**********************************************************************
+* CLEARING STYLE SHEETS
+*********************************************************************/
+
+/***** Firefox *****/
+/* CMS */
+
+#branding,
+#footer #colophon,
+#footer #footer-widget-area,
+.clearfix,
+.clearfix,
+.clearfix,
+.clearfix,
+.clearfix,
+.clearfix,
+.clearfix,
+.clearfix {height: 1%}
+
+/***** Internet Explorer *****/
+/* CMS */
+
+#branding:after,
+#footer #colophon:after,
+#footer #footer-widget-area:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after,
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+
+/***** HR Clearing *****/
+div.cleaner {margin: -1px 0 0 0; height: 1px; clear: both; visibility: hidden}
+div.cleaner hr {display: none}

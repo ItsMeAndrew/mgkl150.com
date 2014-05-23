@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Daum_Regular';
+ 
+    font-style: normal;
+    font-weight: normal;
+    src: local('Daum_Regular'),   url('http://www.dryboy.com/wp-content/themes/dryboy_child/Daum_Regular.ttf') format('ttf');
+ 
+}

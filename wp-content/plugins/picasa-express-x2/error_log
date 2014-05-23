@@ -1,0 +1,2 @@
+[28-Feb-2014 02:14:43] PHP Fatal error:  Call to undefined function  register_activation_hook() in /home/mgklcom/public_html/wp-content/plugins/picasa-express-x2/picasa-express-2.php on line 139
+[14-Mar-2014 20:06:24] PHP Fatal error:  Call to undefined function  register_activation_hook() in /home/mgklcom/public_html/wp-content/plugins/picasa-express-x2/picasa-express-2.php on line 139
